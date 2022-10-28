@@ -19,7 +19,7 @@ topGrid.appendChild(homePageLink);
 
 // <h1>
 const pageHeader = document.createElement('h1');
-pageHeader.textContent = ('Welcome to my Website!');
+pageHeader.textContent = ('Welcome to my Website!'); // TODO fix this
 topGrid.appendChild(pageHeader);
 
 header.append(topGrid);
