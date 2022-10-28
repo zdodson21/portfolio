@@ -1,7 +1,4 @@
-const navButtons = document.querySelector('#common-buttons');
-
-// TODO may need to wrap each button in a form in order to have it link to another webpage
-// need to look into this
+const navButtons = document.querySelector('#common-buttons'); // can be replaced with nav, which means it can be replaced with 'header' for when this becomes a common header
 
 // Button 1 (Portfolio)
 
