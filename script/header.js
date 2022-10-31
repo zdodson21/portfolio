@@ -1,28 +1,22 @@
 const header = document.querySelector('header');
 
-const topGrid = document.createElement('div');
-topGrid.setAttribute('id', 'top-grid');
+
 // topGrid contents
 
 // Home Page link
+const homePageIconID = document.querySelector('#home-page-icon')
 const homePageLink = document.createElement('a');
 homePageLink.setAttribute('href', 'index.html');
+
 
 // <img> Home Page icon
 const homeIcon = document.createElement('img');
 homeIcon.setAttribute('src', '../images/icons/home-page-icon.png');
 homeIcon.setAttribute('alt', 'Home Button');
 homeIcon.setAttribute('id', 'home-icon');
+
 homePageLink.appendChild(homeIcon);
-
-topGrid.appendChild(homePageLink);
-
-// <h1>
-const pageHeader = document.createElement('h1');
-pageHeader.textContent = ('Welcome to my Website!'); // TODO fix this
-topGrid.appendChild(pageHeader);
-
-header.append(topGrid);
+homePageIconID.appendChild(homePageLink);
 
 // Navigation Buttons
 
