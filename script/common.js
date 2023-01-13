@@ -61,8 +61,3 @@ contactMeLink.setAttribute('id', 'contact-me')
 contactMeLink.textContent = ('Contact Me');
 
 footer.appendChild(contactMeLink);
-
-// Extra comment
-
-// another extra test comment
-// Another test comment
