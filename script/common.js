@@ -6,7 +6,7 @@ const header = document.querySelector('header');
 // topGrid contents
 
 // Home Page link
-const homePageIconID = document.querySelector('#home-page-icon')
+const homePageIconID = document.querySelector('#home-page-icon');
 const homePageLink = document.createElement('a');
 homePageLink.setAttribute('href', 'index.html');
 
@@ -23,17 +23,18 @@ homePageIconID.appendChild(homePageLink);
 // Navigation Buttons
 
 const navButtons = document.createElement('nav');
-navButtons.setAttribute('id', 'navigation-buttons')
+navButtons.setAttribute('id', 'navigation-buttons');
 
 // Portfolio Form
 const portfolioWebPage = document.createElement('form');
-portfolioWebPage.setAttribute('action', 'portfolio.html')
+portfolioWebPage.setAttribute('action', 'portfolio.html');
 
 // Portfolio Button
 const portfolioButton = document.createElement('button');
 portfolioButton.classList.add('nav-button');
+portfolioButton.setAttribute('id', 'portfolio-button');
 portfolioButton.textContent = ("Portfolio");
-portfolioWebPage.appendChild(portfolioButton)
+portfolioWebPage.appendChild(portfolioButton);
 navButtons.append(portfolioWebPage);
 
 // Button 2 (Education)
@@ -57,7 +58,7 @@ const footer = document.querySelector('footer');
 
 const contactMeLink = document.createElement('a');
 contactMeLink.setAttribute('href', 'contact-me.html');
-contactMeLink.setAttribute('id', 'contact-me')
+contactMeLink.setAttribute('id', 'contact-me');
 contactMeLink.textContent = ('Contact Me');
 
 footer.appendChild(contactMeLink);
